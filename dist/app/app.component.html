@@ -1,0 +1,26 @@
+<div class="body">
+    <div class="header">
+        <ul class="content">
+            <li class="navItemLogo">
+                <img class="logo" src="/Images/logo.svg" alt="">
+                <div class="title sentinel">
+                    SENTINEL
+                </div>
+                <div class="title">
+                    PARTY
+                </div>
+                <div class="title">
+                    CENTER
+                </div>
+                <object class="hamburgerImage" data="/Images/hamburger.svg" type="image/svg+xml"></object>
+            </li>
+            <li [routerLink]="['/contact']" class="navItem noBorder">CONTACT US</li>
+            <li [routerLink]="['/schedule']" class="navItem">SCHEDULE</li>
+            <li [routerLink]="['/gallery']" class="navItem">GALLERY</li>
+            <li [routerLink]="['./home']"  class="navItem">HOME</li>
+        </ul>
+    </div>
+    <div>
+        <router-outlet></router-outlet>
+    </div>
+</div>

@@ -1,0 +1,1 @@
+{"version":3,"file":"email.interface.js","sourceRoot":"","sources":["../../Users/Tucker/Desktop/test/KofC/tmp/broccoli_type_script_compiler-input_base_path-GXh5mVEw.tmp/0/src/app/contact/email.interface.ts"],"names":[],"mappings":"","sourcesContent":["export interface Email {\n  name: string;\n  email: string;\n  message: string;\n}"]}

@@ -1,0 +1,38 @@
+<div class="contentBody">
+    <div class="banner">
+        <object class="bannerImage" data="/Images/banner.svg" type="image/svg+xml"></object>
+    </div>
+    <div class="container">
+        <div class="content">
+            <form class="form-horizontal" id="contact-form" method="POST" action="email.php" (ngSubmit)="onSubmit()" #tkdForm="ngForm">
+                <div class="control-group">
+                    <label class="control-label" for="name">Name</label>
+                    <div class="controls">
+                        <input type="text" name="name" id="name" placeholder="Name"
+                        [(ngModel)]="message.name" ngControl="name" #tkdForm.name="ngForm"
+                        class="form-control input-lg" required aria-required=”true”>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="email">Email Address</label>
+                    <div class="controls">
+                        <input type="email" name="email" id="email" placeholder="Email Address"
+                        [(ngModel)]="message.email" ngControl="email" #tkdForm.email="ngForm"
+                        class="form-control input-lg" required aria-required=”true”>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="message">Message</label>
+                    <div class="controls">
+                        <textarea name="message" id="message" rows="6" class="form-control input-lg" required
+                        [(ngModel)]="message.message" ngControl="message" #tkdForm.message="ngForm"
+                        aria-required=”true”></textarea>
+                    </div>
+                </div>
+                  <div class="form-actions" [hidden]="!tkdForm.form.valid">
+                      <button type="submit" class="btn btn-default btn-lg btn-block">Contact Us!</button>
+                  </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,1 @@
+{"version":3,"file":"environment.js","sourceRoot":"","sources":["../Users/Tucker/Documents/Web Sites/Knights of Columbus/tmp/broccoli_type_script_compiler-input_base_path-DDaORxF6.tmp/0/src/app/environment.ts"],"names":[],"mappings":";AAAa,mBAAW,GAAG;IACzB,UAAU,EAAE,KAAK;CAClB,CAAC","sourcesContent":["export const environment = {\n  production: false\n};\n"]}

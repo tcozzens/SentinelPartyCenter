@@ -1,0 +1,1 @@
+/Users/Tucker/Desktop/test/KofC/node_modules/@angular/compiler/esm/src/schema/element_schema_registry.js

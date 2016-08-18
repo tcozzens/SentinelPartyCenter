@@ -1,0 +1,1 @@
+/Users/Tucker/Desktop/test/KofC/node_modules/@angular/http/src/static_request.js

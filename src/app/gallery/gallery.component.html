@@ -1,0 +1,22 @@
+<div class="body">
+    <ul class="container">
+        <div class="content">
+            <div class="image" style="list-style:none;padding:0">
+                <img src="{{displayPicture.path}}" style="width:100%;height:100%;">
+                <div class="previous" (click)="previousImage(displayPicture.id)"> 
+                    <span class="helper"></span>
+                    <img src="/Images/previous.png" class="previousIcon">
+                </div>
+                <div class="next" (click)="nextImage(displayPicture.id)"> 
+                    <span class="helper"></span>
+                    <img src="/Images/next.png" class="nextIcon">
+                </div>
+            </div>
+            <ul class="galleryContainer">
+                <li *ngFor="let gallery of pictures" class="galleryPictures">
+                    <img src="{{gallery.path}}" class="galleryPicture" (click)="switchImage(gallery.id)">
+                </li>
+            </ul>
+        </div>
+    </ul>
+</div>

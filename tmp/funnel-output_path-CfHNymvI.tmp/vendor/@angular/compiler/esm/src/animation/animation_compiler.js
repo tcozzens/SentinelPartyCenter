@@ -1,0 +1,1 @@
+/Users/Tucker/Desktop/test/KofC/node_modules/@angular/compiler/esm/src/animation/animation_compiler.js

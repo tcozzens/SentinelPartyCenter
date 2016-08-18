@@ -1,0 +1,24 @@
+.contentBody {
+    background-color: #ededed;
+    margin-bottom: 2%; 
+}
+.contentBody .container {
+    margin-top: 1.5%; 
+}
+.contentBody .container .content {
+    width: 75%;
+    height: auto;
+    margin: auto;
+    background-color: white; 
+}
+@media (max-width: 768px) {
+    .contentBody .container .content {
+        width: 90%;
+    } 
+}
+.contentBody .container .content .contentDetails {
+    padding-top: 2.5%;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    line-height: 150%; 
+}
